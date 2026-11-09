@@ -14,7 +14,7 @@ Version `2.0.0` tracks the source constitution.
   "version": 1,
   "skills": {
     "inertia-vertical-slice": {
-      "source": "mahardikalgw/inertia-vertical-slice",
+      "source": "mahardikalgw/ruby-inertia-vertical-slice",
       "sourceType": "github",
       "skillPath": "SKILL.md"
     }
@@ -25,8 +25,8 @@ Version `2.0.0` tracks the source constitution.
 Or clone and symlink:
 
 ```bash
-git clone git@github.com:mahardikalgw/inertia-vertical-slice.git
-ln -s "$PWD/inertia-vertical-slice" .claude/skills/inertia-vertical-slice
+git clone git@github.com:mahardikalgw/ruby-inertia-vertical-slice.git
+ln -s "$PWD/ruby-inertia-vertical-slice" .claude/skills/inertia-vertical-slice
 ```
 
 ## When to activate
@@ -39,11 +39,12 @@ ln -s "$PWD/inertia-vertical-slice" .claude/skills/inertia-vertical-slice
 ## What's inside
 
 ```
-inertia-vertical-slice/
+ruby-inertia-vertical-slice/
   SKILL.md
   assets/templates/controller.rb
   assets/templates/page.tsx
   assets/templates/service.rb
+  bin/check-skill
   references/controller.md
   references/page.md
   references/props-and-types.md
@@ -65,9 +66,9 @@ repository — that vendored scripts still match it byte for byte. Runs in CI on
 
 ## Related skills
 
-- [`flat-ui-contract`](https://github.com/mahardikalgw/flat-ui-contract) — INV-1…INV-9 and THEME-1…3, with both gate scripts vendored
-- [`scoped-authorization`](https://github.com/mahardikalgw/scoped-authorization) — scopes, 404-not-403, explicit public opt-outs, isolation by construction
-- [`inertia-test-harness`](https://github.com/mahardikalgw/inertia-test-harness) — minitest + inertia helpers, builder objects, and system tests that do not flake
+- [`flat-ui-contract`](https://github.com/mahardikalgw/ruby-flat-ui-contract) — INV-1…INV-9 and THEME-1…3, with both gate scripts vendored
+- [`scoped-authorization`](https://github.com/mahardikalgw/ruby-scoped-authorization) — scopes, 404-not-403, explicit public opt-outs, isolation by construction
+- [`inertia-test-harness`](https://github.com/mahardikalgw/ruby-inertia-test-harness) — minitest + inertia helpers, builder objects, and system tests that do not flake
 
 ## Licence
 
